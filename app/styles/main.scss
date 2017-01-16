@@ -1,0 +1,203 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+// Fonts.
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oxygen');
+
+.browserupgrade {
+  margin: .2em 0;
+  background: #ccc;
+  color: #000;
+  padding: .2em 0;
+}
+
+body {
+  padding: 0;
+  background: #fff;
+  font-family: Oxygen,serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans',sans-serif;
+}
+
+.header {
+  background: linear-gradient(90deg, #360033 10%, #0b8793 90%);
+  padding: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.alert {
+  border: 0;
+  border-radius: 0;
+}
+
+#logo {
+  display: block;
+  margin: 1em auto;
+  img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 70%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #logo img {
+    max-width: 200px;
+  }
+}
+
+#main {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 45vh;
+}
+
+aside {
+  margin-bottom: 2em;
+}
+
+#footer {
+  color: #8F8F8F;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  a {
+    color: #fff;
+  }
+}
+
+ul.social {
+  color: #fff;
+}
+
+#footer .copyright {
+  text-align: right;
+  float: right;
+}
+
+ul.social {
+  margin: 0;
+  padding: 15px;
+  font-size: .85em;
+  text-align: center;
+}
+
+.panel-title, .podcast h2 {
+  font-size: 1.6em;
+}
+
+ul.social li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  + li {
+    margin-left: 10px;
+    &:before {
+      content: '\b7\a0';
+      padding-right: 10px;
+    }
+  }
+  a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+.podcast {
+  h1, h2, h3, h4 {
+    text-align: left;
+    margin: 0 0 1em;
+  }
+}
+
+.credits, .product, .store h1 {
+  text-align: center;
+}
+
+.podcast {
+  margin-bottom: 4em;
+
+  h2 {
+    line-height: 150%;
+
+    @media only screen and (min-width: 768px) {
+      height: 125px;
+    }
+
+    small {
+      display: block;
+      margin-top: 0.5em;
+    }
+  }
+  
+  p {
+    margin: 1em 0;
+  }
+  .links {
+    margin-top: 30px;
+    ol {
+      margin: 0;
+      padding: 0 0 0 1em;
+    }
+    li {
+      margin-bottom: 25px;
+    }
+  }
+  
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 1em;
+    display: block;
+  }
+}
+
+.credits {
+  h1 {
+    margin-bottom: 1em;
+  }
+  p + h4 {
+    margin-top: 2em;
+  }
+}
+
+.product {
+  margin-bottom: 4em;
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+div.product-embed {
+  display: table;
+}
+
+.store h1 {
+  margin: 0 0 1em;
+}
+
+.panel {
+  border: 0;
+  box-shadow: none;
+}
+
+.panel-heading {
+  border-bottom: 0;
+  background: 0 0 !important;
+}
+
+.panel-title {
+  font-weight: 600;
+}
