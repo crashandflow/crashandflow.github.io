@@ -1,0 +1,39 @@
+#main {
+  padding: 20px 0;
+}
+
+h4.text-muted {
+  font-weight: lighter;
+}
+
+h4, footer {
+
+  a {
+    color: #000;
+
+    &:hover {
+      text-decoration: none;
+      color: #0b8793;
+    }
+  }
+}
+
+.card {
+  border-radius: 0;
+
+  h4 {
+    font-size: 1.2rem;
+
+    @media (min-width: 767px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.display-3 {
+  font-size: 2.8rem;
+
+  @media (min-width: 767px) {
+    font-size: 3rem;
+  }
+}
