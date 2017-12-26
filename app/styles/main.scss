@@ -9,93 +9,79 @@ $icon-font-path: '../fonts/';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oxygen');
 
 .browserupgrade {
-  margin: .2em 0;
   background: #ccc;
   color: #000;
+  margin: .2em 0;
   padding: .2em 0;
 }
-
 body {
-  padding: 0;
   background: #fff;
-  font-family: Oxygen,serif;
+  font-family: Oxygen, serif;
   font-size: 16px;
   line-height: 24px;
+  padding: 0;
 }
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-
 .header {
   background: linear-gradient(90deg, #360033 10%, #0b8793 90%);
   padding: 15px;
   position: relative;
   text-align: center;
 }
-
 .alert {
   border: 0;
   border-radius: 0;
 }
-
 #logo {
   display: block;
   margin: 1em auto;
   img {
-    width: auto;
     height: auto;
-    max-width: 100px;
     max-height: 70%;
+    max-width: 100px;
+    width: auto;
   }
 }
-
 @media only screen and (min-width: 768px) {
   #logo img {
     max-width: 200px;
   }
 }
-
 #main {
-  padding-top: 2em;
-  padding-bottom: 2em;
   min-height: 45vh;
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
-
 aside {
   margin-bottom: 2em;
 }
-
 #footer {
-  color: #8F8F8F;
-  position: absolute;
   bottom: 20px;
+  color: #8f8f8f;
+  position: absolute;
   width: 100%;
   a {
     color: #fff;
   }
 }
-
 ul.social {
   color: #fff;
 }
-
 #footer .copyright {
-  text-align: right;
   float: right;
+  text-align: right;
 }
-
 ul.social {
+  font-size: .85em;
   margin: 0;
   padding: 15px;
-  font-size: .85em;
   text-align: center;
 }
-
 .panel-title, .podcast h2 {
   font-size: 1.6em;
 }
-
 ul.social li {
   display: inline-block;
   list-style: none;
@@ -112,18 +98,15 @@ ul.social li {
     text-transform: uppercase;
   }
 }
-
 .podcast {
   h1, h2, h3, h4 {
-    text-align: left;
     margin: 0 0 1em;
+    text-align: left;
   }
 }
-
 .credits, .product, .store h1 {
   text-align: center;
 }
-
 .podcast {
   margin-bottom: 4em;
 
@@ -146,7 +129,7 @@ ul.social li {
       margin-top: 0.5em;
     }
   }
-  
+
   p {
     margin: 1em 0;
   }
@@ -161,16 +144,18 @@ ul.social li {
       margin-bottom: 25px;
     }
   }
-  
 
   img {
-    width: 100%;
+    display: block;
     height: auto;
     margin: 0 0 1em;
-    display: block;
+    width: 100%;
+  }
+
+  a {
+    word-wrap: break-word;
   }
 }
-
 .credits {
   h1 {
     margin-bottom: 1em;
@@ -179,33 +164,27 @@ ul.social li {
     margin-top: 2em;
   }
 }
-
 .product {
   margin-bottom: 4em;
   img {
-    max-width: 80%;
     height: auto;
+    max-width: 80%;
   }
 }
-
 div.product-embed {
   display: table;
 }
-
 .store h1 {
   margin: 0 0 1em;
 }
-
 .panel {
   border: 0;
   box-shadow: none;
 }
-
 .panel-heading {
-  border-bottom: 0;
   background: 0 0 !important;
+  border-bottom: 0;
 }
-
 .panel-title {
   font-weight: 600;
 }
